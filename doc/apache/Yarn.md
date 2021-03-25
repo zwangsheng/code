@@ -8,7 +8,7 @@ Hadoop2.0的yarn为hadoop提供了更多框架的选择，你不用局限在hado
 
 ## Architecture
 
-![architecture](../images/spark/yarn/Architecture.png)
+![architecture](../images/apache/yarn/Architecture.png)
 > The fundamental idea of YARN is to split up the functionalities of resource management and job scheduling/monitoring 
 > into separate daemons. The idea is to have a global ResourceManager (RM) and per-application ApplicationMaster (AM). 
 > An application is either a single job, or a DAG of jobs.
