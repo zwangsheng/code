@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class GrayCode {
     public List<Integer> grayCode(int n) {
-        List<Integer> ans = new LinkedList<>() {{
+        List<Integer> ans = new LinkedList<Integer>() {{
             add(0);
         }};
         int head = 1;
